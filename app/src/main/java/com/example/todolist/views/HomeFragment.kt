@@ -196,6 +196,7 @@ class HomeFragment : Fragment(), AddTodoPopupFragment.DialogNextBtnClickListener
                 Toast.makeText(context, "Task is been added", Toast.LENGTH_LONG).show()
                 //todo sending selected time to alarm notification
                 datee=todoDate
+
                 val time = todoDate +" "+ todoTime
                 val format = SimpleDateFormat("dd:MM:yyyy HH:mm")
                 val date = format.parse(time)
